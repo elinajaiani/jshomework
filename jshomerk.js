@@ -69,5 +69,18 @@ for (var i=country.length -1; i >= 0; i--){
     console.log(country[i]);
 }
 
+// კენტი რიცხვები 
+
+var Array = [15,53,22,198,10,28,16,70,33,951];
+var result = Array.filter ((n) = (n%2) +1);
+document.write(result);
+
+// ლუწი რიცხვები 
+
+var Array = [15,53,22,198,10,28,16,70,33,951];
+var result = Array.filter ((n) => n%2 ==0);
+document.write(result);
+
+
 
 
