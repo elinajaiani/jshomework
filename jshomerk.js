@@ -40,10 +40,14 @@ else{
 
 // დავალება 2
 
+
+//var price = prompt ??
+
 function price (x,testmessage) {
     var message = testmessage(x);
     document.write(message);
 }
+
 function informationaboutprice(price){
     if (price<20)
     return "ძალიან იაფია";
@@ -53,6 +57,17 @@ function informationaboutprice(price){
     return "ძალიან ძვირია";
 }
 price(45,informationaboutprice);
+
+//ერთგანზომილებიანი მასივი
+
+var country=["Georgia", "USA", "Spain", "Italy", "Brazil"];
+for (var i=0; i <country.length; i++){
+    console.log(country[i]);
+}
+
+for (var i=country.length -1; i >= 0; i--){
+    console.log(country[i]);
+}
 
 
 
